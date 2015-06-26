@@ -10,7 +10,11 @@
     "angular-sanitize": "~1.2.0",
     "angular-animate": "~1.2.0",
     "angular-touch": "~1.2.0",
-    "angular-route": "~1.2.0"
+    "angular-route": "~1.2.0",
+    "font-awesome": "~4.3.0",
+    "compass-mixins": "~1.0.2",
+    "foundation": "~5.5.2",
+    "foundation-icon-fonts": "*"
   },
   "devDependencies": {
     "angular-mocks": "~1.2.0",

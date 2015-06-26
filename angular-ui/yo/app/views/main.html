@@ -1,4 +1,9 @@
-<h1>{{title}}</h1>
-<p>Response from REST service:</p>
-<h4>{{ping.message}}</h4>
-<p>{{ping.serviceName}}</p>
+<div class="row">
+    <h1>{{title}}</h1>
+</div>
+
+<div class="row">
+    <p>Response from REST service:</p>
+    <h4 ng-show="ping">{{ping.message}}&nbsp;<i class="fa fa-star" /></h4>
+    <p>{{ping.serviceName}}</p>
+</div>
